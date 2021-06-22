@@ -1,12 +1,4 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import router from './routes/router';
-import logger from '../helpers/logger';
-
-const app = express();
-app.use(bodyParser.json());
-app.use(logger);
-app.use(router);
+import app from './app';
 
 const PORT = 3000;
 

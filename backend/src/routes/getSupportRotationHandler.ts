@@ -1,4 +1,4 @@
-import generateRotation from "../../helpers/generateRotation";
+import generateRotation from "../helpers/generateRotation";
 
 const getSupportRotationHandler = (request, response) => {
     const { names } = request.query;
